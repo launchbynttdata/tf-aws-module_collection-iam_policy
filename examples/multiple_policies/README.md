@@ -37,4 +37,5 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_policy_arns"></a> [policy\_arns](#output\_policy\_arns) | ARNs of the created policies |
+| <a name="output_policy_names"></a> [policy\_names](#output\_policy\_names) | Names of the created policies |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
