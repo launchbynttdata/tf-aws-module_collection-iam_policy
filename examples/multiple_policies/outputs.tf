@@ -14,3 +14,8 @@ output "policy_arns" {
   description = "ARNs of the created policies"
   value       = module.iam_policies[*].arn
 }
+
+output "policy_names" {
+  description = "Names of the created policies"
+  value       = module.iam_policies[*].name
+}

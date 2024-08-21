@@ -5,7 +5,10 @@ Creates a single IAM policy.
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
-No requirements.
+| Name | Version |
+|------|---------|
+| <a name="requirement_terraform"></a> [terraform](#requirement\_terraform) | >= 1.5.0, <= 1.5.5 |
+| <a name="requirement_aws"></a> [aws](#requirement\_aws) | ~> 5.0 |
 
 ## Providers
 
@@ -34,4 +37,5 @@ No resources.
 | Name | Description |
 |------|-------------|
 | <a name="output_policy_arn"></a> [policy\_arn](#output\_policy\_arn) | ARN of the created policy |
+| <a name="output_policy_name"></a> [policy\_name](#output\_policy\_name) | Name of the created policy |
 <!-- END OF PRE-COMMIT-TERRAFORM DOCS HOOK -->

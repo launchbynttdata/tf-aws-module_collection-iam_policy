@@ -19,7 +19,7 @@ module "iam_policies" {
   role_name = var.role_name
   resource_names_map = {
     iam_policy = {
-      name = "plcy_${count.index}"
+      name = "plcy${count.index}"
     }
   }
 
